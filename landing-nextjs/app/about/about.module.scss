@@ -1,0 +1,24 @@
+.rotate {
+	background-color: red;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-name: rotation;
+}
+
+@keyframes rotation {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		background-color: red;
+	}
+
+	50% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		color: white;
+		background-color: blue;
+	}
+	100% {
+		background-color: red;
+	}
+}

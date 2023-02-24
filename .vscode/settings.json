@@ -1,0 +1,7 @@
+{
+	"prettier.endOfLine": "crlf",
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 140,
+	"prettier.singleAttributePerLine": true,
+	"eslint.packageManager": "pnpm"
+}
